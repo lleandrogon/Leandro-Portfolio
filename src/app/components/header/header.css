@@ -1,0 +1,20 @@
+header {
+    background-color: var(--secondary);
+    color: var(--text-color);
+}
+
+.row {
+    padding: 20px 0;
+}
+
+.nav li {
+    margin: 0 10px;
+    padding: 0;
+    font-size: 1.3em;
+    list-style: none;
+}
+
+.nav li a {
+    color: var(--text-color);
+    text-decoration: none;
+}

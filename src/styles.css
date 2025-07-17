@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary: blue;
+    --secondary: #101011;
+    --text-color: #ffffff;
+}
+
+.row {
+    margin: 0;
+}
