@@ -1,10 +1,21 @@
 <header class="container-fluid">
     <div class="row">
-        <div class="col-12 col-lg-6 d-flex justify-content-start align-items-center">
-            <span>DEV LEANDRO</span>
+        <div class="col-6 d-flex justify-content-start align-items-center">
+            <span class="l-logo">L</span>
         </div>
         <div class="col-lg-6 d-none d-lg-flex justify-content-end align-items-center">
             <ul class="nav d-flex align-items-center">
+                <li><a href="">Skills</a></li>
+                <li><a href="">Experiência</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contatos</a></li>
+            </ul>
+        </div>
+        <div class="col-6 d-flex d-lg-none justify-content-end align-items-center">
+            <i (click)="showResponsiveNav()" class="fa-solid fa-bars"></i>
+        </div>
+        <div *ngIf="responsiveNav" class="col-12 d-lg-none">
+            <ul class="responsive-nav">
                 <li><a href="">Skills</a></li>
                 <li><a href="">Experiência</a></li>
                 <li><a href="">Projetos</a></li>

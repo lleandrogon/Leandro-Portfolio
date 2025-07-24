@@ -1,0 +1,48 @@
+.home {
+    background-image: var(--background);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titles {
+    margin-left: 30px;
+}
+
+.titles h1 {
+    font-size: 4em;
+}
+
+.titles h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+    color: var(--primary);
+}
+
+.social-icons {
+    margin-left: 25px;
+    font-size: 3em;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+.fa-brands:hover {
+    color: var(--primary);
+}
+
+.buttons-container {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.bt {
+    margin-top: 5px;
+    margin-right: 15px;
+}

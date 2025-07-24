@@ -1,0 +1,35 @@
+.about {
+    background: var(--background-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 90px;
+}
+
+.title-container {
+    margin-bottom: 30px;
+}
+
+.content {
+    font-size: 1.1em;
+}
+
+.name {
+    color: var(--primary);
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.bt {
+    padding: 5px 30px;
+}
+
+@media (min-width: 992px) {
+    .content {
+        font-size: 1.2em;
+    }
+}
