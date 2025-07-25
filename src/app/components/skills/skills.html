@@ -2,4 +2,11 @@
     <div class="title-container">
         <h1 class="title">Skills</h1>
     </div>
+    <div class="skills-container row">
+        @for (technology of technologies; track technology.id) {
+            <div class="technology-container col-4 col-md-2">
+                <i class="{{ technology.icon }}"></i><span>{{ technology.name }}</span>
+            </div>
+        }
+    </div>
 </section>
