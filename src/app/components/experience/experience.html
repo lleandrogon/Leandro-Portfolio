@@ -1,1 +1,22 @@
-<p>experience works!</p>
+<section class="experience">
+    <div class="title-container">
+        <h1 class="title">Experiência</h1>
+    </div>
+    <div class="timeline">
+        @for (experience of experiences; track experience.id; let i = $index) {
+            <div class="timeline-item" [class.left]="i % 2 === 0" [class.right]="i % 2 !== 0">
+                <div class="content">
+                    <h3 class="experience-title">{{ experience.title }} - {{ experience.company }}</h3>
+                    <p class="date">{{ experience.time }}</p>
+                    <p>{{ experience.description }}</p>
+                    <h4 class="text-center my-4">Principais Tecnologias:</h4>
+                    <ul class="technologies">
+                        @for (technology of experience.technologies; track technology.id) {
+                            <li><i class="{{ technology.icon }}"></i></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        }
+    </div>
+</section>

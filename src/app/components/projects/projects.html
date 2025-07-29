@@ -1,0 +1,19 @@
+<section class="projects">
+    <div class="title-container">
+        <h1 class="title">Projetos</h1>
+    </div>
+    <div class="row">
+        @for (project of projects; track project.id) {
+            <div class="card" style="width: 18rem;">
+                <i class="{{ project.mainTechnology }}"></i>
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    <p class="card-text">{{ project.description }}</p>
+                    <div class="bt-container">
+                        <a [href]="project.repositorie" target="_blank" class="bt">Repositório</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>

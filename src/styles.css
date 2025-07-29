@@ -4,9 +4,11 @@
     --primary: #00A8FF;
     --secondary: #0e0e0e;
     --secondary-gradient: #1c1c1e;
+    --tertiary-gradient: #404040;
     --text-color: #ffffff;
     --background: url('../public/assets/background.jpg');
     --background-secondary: linear-gradient(135deg, var(--secondary), var(--secondary-gradient));
+    --background-tertiary:  linear-gradient(135deg, var(--secondary), var(--tertiary-gradient));
 }
 
 * {
