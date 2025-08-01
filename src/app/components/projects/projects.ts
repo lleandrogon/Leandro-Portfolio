@@ -17,43 +17,6 @@ export class Projects {
       title: "Agenda Pessoal",
       description: "Sistema multiusuário para anotações de compromissos.",
       repositorie: "https://github.com/lleandrogon/Agenda-Pessoal",
-      technologies: [
-        {
-          id: 1,
-          name: "Laravel",
-          icon: "fa-brands fa-laravel fs-2"
-        },
-        {
-          id: 2,
-          name: "PHP",
-          icon: "devicon-php-plain fs-2"
-        },
-        {
-          id: 3,
-          name: "MySQL",
-          icon: "devicon-mysql-plain fs-4"
-        },
-        {
-          id: 8,
-          name: "JavaScript",
-          icon: "devicon-javascript-plain fs-4"
-        },
-        {
-          id: 9,
-          name: "Bootstrap",
-          icon: "devicon-bootstrap-plain fs-2"
-        },
-        {
-          id: 10,
-          name: "CSS",
-          icon: "devicon-css3-plain fs-4"
-        },
-        {
-          id: 11,
-          name: "HTML",
-          icon: "devicon-html5-plain fs-4"
-        },
-      ]
     },
     {
       id: 2,
@@ -61,23 +24,6 @@ export class Projects {
       title: "Notas",
       description: "API para filtros de pesquisa de notas acadêmicas escolares.",
       repositorie: "https://github.com/lleandrogon/Notas",
-      technologies: [
-        {
-          id: 1,
-          name: "Laravel",
-          icon: "fa-brands fa-laravel fs-2"
-        },
-        {
-          id: 2,
-          name: "PHP",
-          icon: "devicon-php-plain fs-2"
-        },
-        {
-          id: 3,
-          name: "MySQL",
-          icon: "devicon-mysql-plain fs-4"
-        },
-      ]
     },
     {
       id: 3,
@@ -85,43 +31,55 @@ export class Projects {
       title: "YO Respostas",
       description: "Sistema multiusuário para perguntas e respostas gerais.",
       repositorie: "https://github.com/lleandrogon/YO-Respostas",
-      technologies: [
-        {
-          id: 1,
-          name: "Laravel",
-          icon: "fa-brands fa-laravel fs-2"
-        },
-        {
-          id: 2,
-          name: "PHP",
-          icon: "devicon-php-plain fs-2"
-        },
-        {
-          id: 3,
-          name: "MySQL",
-          icon: "devicon-mysql-plain fs-4"
-        },
-        {
-          id: 8,
-          name: "JavaScript",
-          icon: "devicon-javascript-plain fs-4"
-        },
-        {
-          id: 9,
-          name: "Bootstrap",
-          icon: "devicon-bootstrap-plain fs-2"
-        },
-        {
-          id: 10,
-          name: "CSS",
-          icon: "devicon-css3-plain fs-4"
-        },
-        {
-          id: 11,
-          name: "HTML",
-          icon: "devicon-html5-plain fs-4"
-        },
-      ]
+    },
+    {
+      id: 4,
+      mainTechnology: "fa-brands fa-laravel",
+      title: "Super Receitas",
+      description: "Projeto multiusuário para o compartilhamento de culinárias.",
+      repositorie: "https://github.com/lleandrogon/Super-Receitas",
+    },
+    {
+      id: 5,
+      mainTechnology: "devicon-vuejs-plain",
+      title: "Colégio Modelo",
+      description: "Sistema para um colégio para convencer matrículas.",
+      repositorie: "https://github.com/lleandrogon/Colegio-Modelo"
+    },
+    {
+      id: 6,
+      mainTechnology: "devicon-vuejs-plain",
+      title: "Fala Fácil",
+      description: "Sistema para uma escola de idiomas para fins de matrícula.",
+      repositorie: "https://github.com/lleandrogon/Colegio-Modelo"
+    },
+    {
+      id: 7,
+      mainTechnology: "devicon-angularjs-plain",
+      title: "Altitude Gráfica",
+      description: "Projeto freelancer de landing page para uma gráfica.",
+      repositorie: "https://github.com/lleandrogon/Altitude-Grafica"
+    },
+    {
+      id: 8,
+      mainTechnology: "devicon-angularjs-plain",
+      title: "Portfólio Leandro",
+      description: "Meu antigo portfólio que demonstra como eu evolui.",
+      repositorie: "https://github.com/lleandrogon/FlowMusic"
+    },
+    {
+      id: 9,
+      mainTechnology: "devicon-angularjs-plain",
+      title: "Flow Music",
+      description: "Ecommerce de uma loja de instrumentos musicais.",
+      repositorie: "https://github.com/lleandrogon/FlowMusic"
+    },
+    {
+      id: 10,
+      mainTechnology: "devicon-angularjs-plain",
+      title: "PowerFit",
+      description: "Sistema convicente a matrículas de uma academia.",
+      repositorie: "https://github.com/lleandrogon/FlowMusic"
     }
   ];
 }

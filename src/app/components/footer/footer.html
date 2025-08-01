@@ -1,0 +1,16 @@
+<footer>
+    <div class="social-container">
+        @for (social of socialService.socials; track social.id) {
+          <a [href]=social.link target="_blank"><i class="{{ social.icon }} social"></i></a>
+        }
+    </div>
+    <div class="contact-container row">
+        @for (contact of contacts; track contact.id) {
+            <span class="contact col-12 col-lg-4"><i class="{{ contact.icon }} me-1"></i>{{ contact.description }}</span>
+        }
+    </div>
+    <section class="copyright">
+        &copy; {{ currentYear }} Portfolio-Leandro. Todos os direitos reservados. Desenvolvido por <a [href]="linkedin" target="_blank" class="text-decoration-none"><span>Leandro Gonçalves Crisóstomo</span></a>.
+    </section>
+</footer>
+

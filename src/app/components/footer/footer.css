@@ -1,0 +1,48 @@
+footer {
+    background: var(--background-secondary);
+    padding-top: 25px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    margin: 0 30px;
+    font-size: 3.1em;
+}
+
+.social:hover {
+    color: var(--primary);
+}
+
+.contact-container {
+    text-align: center;
+    padding: 25px 0 5px 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.contact {
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.contact i {
+    font-size: 1.2em;
+}
+
+.copyright {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 7px;
+    background: var(--secondary);
+}
+
+.copyright span:hover {
+    color: var(--primary);
+}

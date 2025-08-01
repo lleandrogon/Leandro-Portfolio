@@ -6,5 +6,4 @@ export interface ProjectInterface {
     title: string;
     description: string;
     repositorie: string;
-    technologies: TechnologyInterface[];
 }

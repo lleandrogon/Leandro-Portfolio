@@ -1,0 +1,41 @@
+<section class="contact-container">
+    <div class="title-container">
+        <h1 class="title">Contato</h1>
+        <h5>Entre em contato comigo, estou aberto a novos projetos e oportunidades.</h5>
+    </div>
+    <form action="" class="form-container" [formGroup]="contactForm">
+        <div class="row mb-3">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <label for="name" class="label">Nome:</label>
+                <input type="text" class="form-control" id="name" autocomplete="off" formControlName="name">
+                 @if (contactForm.controls['name'].touched && contactForm.controls['name'].errors?.['required']) {
+                    <p class="error">O campo nome é obrigatório!</p>
+                } @else if (contactForm.controls['name'].touched && contactForm.controls['name'].errors?.['minlength']) {
+                    <p class="error">O campo nome deve ter no mínimo 3 caracteres!</p>
+                }
+            </div>
+            <div class="col-lg-6">
+                <label for="name" class="label">Email:</label>
+                <input type="text" class="form-control" id="email" autocomplete="off" formControlName="email">
+                @if (contactForm.controls['email'].touched && contactForm.controls['email'].errors?.['required']) {
+                    <p class="error">O campo email é obrigatório!</p>
+                } @else if (contactForm.controls['email'].touched && contactForm.controls['email'].errors?.['email']) {
+                    <p class="error">Email inválido!</p>
+                }
+            </div>
+        </div>
+        <div class="row message-container">
+            <div class="col-12">
+                <label for="message" class="label">Mensagem:</label>
+                <textarea class="form-control" id="message" autocomplete="off" rows="3" formControlName="message"></textarea>
+                @if (contactForm.controls['message'].touched && contactForm.controls['message'].errors?.['required']) {
+                    <p class="error">O campo mensagem não pode estar vazio!</p>
+                }
+            </div>
+        </div>
+        <div class="bts-container">
+            <button (click)="sendEmail()" class="bt">Enviar Email</button>
+            <button (click)="sendWhatsapp()" class="bt">Enviar Whatsapp</button>
+        </div>
+    </form>
+</section>

@@ -27,6 +27,11 @@ export class Skills {
       icon: "devicon-mysql-plain fs-4"
     },
     {
+      id: 14,
+      name: "PostgreSQL",
+      icon: "devicon-postgresql-plain fs-2"
+    },
+    {
       id: 4,
       name: "Angular",
       icon: "devicon-angularjs-plain fs-4"

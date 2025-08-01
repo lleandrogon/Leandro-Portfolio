@@ -1,0 +1,73 @@
+.main-container {
+    background: var(--background-secondary);
+    padding-bottom: 30px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.certificates-container {
+    margin: 0 15px;
+}
+
+.certificate {
+    padding: 15px 0;
+    transition: transform 0.3s ease;
+}
+
+.certificate:hover {
+    transform: scale(1.01);
+}
+
+.row {
+    margin: 0;
+    background-color: var(--secondary);
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 25px 25px 0 0;
+}
+
+.company {
+    color: var(--primary);
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.technology {
+    color: var(--primary);
+}
+
+.content {
+    background: var(--tertiary-gradient);
+    font-size: 1.1em;
+    padding: 15px 0;
+}
+
+.content p, .content .bt {
+    margin: 0 10px;
+}
+
+.bt-container {
+    margin-top: 25px;
+}
+
+.bt {
+    font-size: 1em;
+}
+
+.bt:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 992px) {
+    .certificates-container {
+        margin: 0 150px;
+    }
+
+    .row {
+        font-size: 1.7em;
+    }
+}

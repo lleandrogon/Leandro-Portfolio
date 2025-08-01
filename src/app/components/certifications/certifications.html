@@ -1,0 +1,25 @@
+<section class="main-container">
+    <div class="title-container">
+        <h1 class="title">Certificados</h1>
+    </div>
+    <div class="certificates-container">
+        @for (certificate of certificates.slice().reverse(); track certificate.id) {
+            <div class="certificate">
+                <div class="row">
+                    <div class="col-10 d-flex justify-content-start align-items-center p-1">
+                        <span class="company">{{ certificate.company }}:</span> <span>{{ certificate.title }}</span>
+                    </div>
+                    <div class="col-2 d-flex justify-content-end align-items-center">
+                        <i class="{{ certificate.icon }} technology"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="description">{{ certificate.description }}</p>
+                    <div class="bt-container">
+                        <a href="{{ certificate.link }}" target="_blank" class="bt">Exibir Credencial</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
