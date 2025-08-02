@@ -108,4 +108,12 @@ h4 {
     .technologies li {
         margin: 5px;
     }
+
+    .experience-title {
+      font-size: 1.2em;
+    }
+
+    .date {
+      font-size: 1.1em;
+    }
 }

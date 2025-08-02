@@ -29,7 +29,7 @@ export class Skills {
     {
       id: 14,
       name: "PostgreSQL",
-      icon: "devicon-postgresql-plain fs-2"
+      icon: "devicon-postgresql-plain fs-3"
     },
     {
       id: 4,

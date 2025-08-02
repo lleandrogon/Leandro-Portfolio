@@ -14,7 +14,7 @@ export class Experience {
   public experiences: ExperienceInterface[] = [
     {
       id: 1,
-      title: "Analista de Infraestrutura de TI",
+      title: "Analista de Infra de TI",
       company: "Prefeitura de Maceió",
       time: "Agosto 2024 - Atual",
       description: "Implementei melhorias em servidores, o que resultou em um aumento de 50% na eficiência. Fui responsável pela gestão da infraestrutura de TI, garantindo suporte para os usuários. Também atuei no monitoramento dos dados dos funcionários da ALICC por meio dos sistemas da prefeitura.",

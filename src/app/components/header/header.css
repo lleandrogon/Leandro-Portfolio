@@ -1,11 +1,11 @@
 header {
     background: var(--background-secondary);
-    z-index: 1000;
-    position: fixed;
+    margin: 0;
 }
 
 .row {
     padding: 0;
+    margin: 0;
 }
 
 .l-logo {
@@ -13,7 +13,7 @@ header {
     font-size: 4.2em;
     font-weight: 900;
     color: var(--primary);
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 li {
@@ -33,7 +33,7 @@ li a:hover {
 }
 
 .fa-bars {
-    font-size: 3.0em;
+    font-size: 3em;
     transition: transform 0.3s ease;
 }
 
