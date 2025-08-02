@@ -8,7 +8,7 @@
     --error: #ffff2c;
     --text-color: #ffffff;
     --transparent-text: #ffffffd4;
-    --background: url('../public/assets/background-dark.jpg');
+    --background: url('../public/assets/background.jpg');
     /* --background: url('https://static.vecteezy.com/system/resources/thumbnails/011/545/805/small_2x/ abstract-luxury-glowing-lines-curved-overlapping-on-dark-blue-background-template-premium-award-design-free-vector.jpg'); */
     --background-secondary: linear-gradient(135deg, var(--secondary), var(--secondary-gradient));
     --background-tertiary:  linear-gradient(135deg, var(--secondary), var(--tertiary-gradient));
@@ -44,7 +44,7 @@
 
 .title {
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2.3em;
     letter-spacing: 1px;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--primary);
@@ -62,4 +62,10 @@
     font-weight: 500;  
     text-align: center;
     margin-top: 15px; 
+}
+
+@media (min-width: 992px) {
+    .title {
+        font-size: 2.5em;
+    }
 }
