@@ -12,6 +12,27 @@ import { CommonModule } from '@angular/common';
 export class Projects {
   public projects:ProjectInterface[] = [
     {
+      id: 12,
+      mainTechnology: "devicon-apacheairflow-plain",
+      title: "Conversão Moedas",
+      description: "Conversões de moedas orquestrado com Airflow",
+      repositorie: "*"
+    },
+    {
+      id: 12,
+      mainTechnology: "devicon-apachespark-original",
+      title: "Music Store",
+      description: "ETL de loja músical orquestrado com jobs do Databricks",
+      repositorie: "https://github.com/lleandrogon/Music-Store"
+    },
+    {
+      id: 11,
+      mainTechnology: "devicon-apachespark-original",
+      title: "ETL Vendas",
+      description: "ETL de vendas de uma empresa, feito no Databricks",
+      repositorie: "https://github.com/lleandrogon/ETL_vendas_Databricks"
+    },
+    {
       id: 1,
       mainTechnology: "fa-brands fa-laravel",
       title: "Agenda Pessoal",

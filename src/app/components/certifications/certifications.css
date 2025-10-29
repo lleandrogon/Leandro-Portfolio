@@ -40,6 +40,10 @@
     color: var(--primary);
 }
 
+.technology:hover {
+    color: var(--text-color);
+}
+
 .content {
     background: var(--tertiary-gradient);
     font-size: 1.1em;

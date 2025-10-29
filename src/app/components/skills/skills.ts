@@ -13,71 +13,71 @@ export class Skills {
   public technologies:TechnologyInterface[] = [
     {
       id: 1,
-      name: "Laravel",
-      icon: "fa-brands fa-laravel fs-2"
+      name: "Python",
+      icon: "devicon-python-plain fs-3"
     },
     {
       id: 2,
-      name: "PHP",
-      icon: "devicon-php-plain fs-2"
+      name: "SQL",
+      icon: "devicon-azuresqldatabase-plain fs-2"
     },
     {
       id: 3,
-      name: "MySQL",
-      icon: "devicon-mysql-plain fs-4"
-    },
-    {
-      id: 14,
-      name: "PostgreSQL",
-      icon: "devicon-postgresql-plain fs-3"
+      name: "Azure",
+      icon: "devicon-azure-plain fs-3"
     },
     {
       id: 4,
-      name: "Angular",
-      icon: "devicon-angularjs-plain fs-4"
+      name: "Spark",
+      icon: "devicon-apachespark-original fs-3"
     },
     {
       id: 5,
-      name: "TypeScript",
-      icon: "devicon-typescript-plain fs-4"
+      name: "Airflow",
+      icon: "devicon-apacheairflow-plain fs-3"
     },
     {
       id: 6,
-      name: "Vue",
-      icon: "devicon-vuejs-plain fs-3"
-    },
-    {
-      id: 7,
-      name: "JQuery",
-      icon: "devicon-jquery-plain fs-4"
-    },
-    {
-      id: 8,
-      name: "JavaScript",
-      icon: "devicon-javascript-plain fs-4"
-    },
-    {
-      id: 9,
-      name: "Bootstrap",
-      icon: "devicon-bootstrap-plain fs-2"
-    },
-    {
-      id: 10,
-      name: "CSS",
-      icon: "devicon-css3-plain fs-4"
-    },
-    {
-      id: 11,
-      name: "HTML",
-      icon: "devicon-html5-plain fs-4"
-    },
-    {
-      id: 12,
       name: "Docker",
       icon: "fa-brands fa-docker fs-4"
     },
     {
+      id: 7,
+      name: "Laravel",
+      icon: "fa-brands fa-laravel fs-2"
+    },
+    {
+      id: 8,
+      name: "PHP",
+      icon: "devicon-php-plain fs-2"
+    },
+    {
+      id: 9,
+      name: "Angular",
+      icon: "devicon-angularjs-plain fs-4"
+    },
+    {
+      id: 10,
+      name: "TypeScript",
+      icon: "devicon-typescript-plain fs-4"
+    },
+    {
+      id: 11,
+      name: "Vue",
+      icon: "devicon-vuejs-plain fs-3"
+    },
+    {
+      id: 12,
+      name: "JQuery",
+      icon: "devicon-jquery-plain fs-4"
+    },
+    {
       id: 13,
+      name: "JavaScript",
+      icon: "devicon-javascript-plain fs-4"
+    },
+    {
+      id: 15,
       name: "Git",
       icon: "devicon-git-plain fs-4"
     }

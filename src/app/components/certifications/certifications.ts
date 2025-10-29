@@ -24,7 +24,7 @@ export class Certifications {
       icon: "fa-solid fa-computer fs-2",
       title: "Operador de Computador",
       company: "Senai",
-      description: "Curso focado no uso eficiente de sistemas operacionais, editores de texto, planilhas eletrônicas e navegação na internet para rotinas administrativas.",
+      description: "Uso de sistemas operacionais Linux, editores de texto, planilhas eletrônicas e navegação na internet para rotinas administrativas.",
       link: "https://drive.google.com/file/d/18bomU7EubYd37d_kM5D6w6nwke6mkvST/view"
     },
     {
@@ -53,11 +53,27 @@ export class Certifications {
     },
     {
       id: 6,
-      icon: "devicon-laravel-original fs-2",
+      icon: "devicon-laravel-original fs-1",
       title: " Desenvolvimento Web Avançado com PHP, Laravel e Vue.JS",
       company: "Udemy",
       description: "Capacitação avançada em desenvolvimento full stack com Laravel, Vue.js, APIs RESTful, autenticação, e boas práticas de arquitetura de software.",
       link: "https://www.udemy.com/certificate/UC-65fb837e-de8a-454f-a949-9db7fba43566/"
+    },
+    {
+      id: 7,
+      icon: "fa-brands fa-docker fs-2",
+      title: "Docker Zero a Profissional",
+      company: "Udemy",
+      description: "Criação e gerenciação de imagens e containers Docker, construindo ambientes isolados para aplicações e pipelines.",
+      link: "https://www.udemy.com/certificate/UC-6b29dfa3-cbb0-4533-84d6-b5a5c9d712c6/"
+    },
+    {
+      id: 8,
+      icon: "devicon-apachespark-original fs-1",
+      title: "Databricks Developer Spark, SQL, Python para dados",
+      company: "Udemy",
+      description: "Pipelines de dados utilizando Apache Spark, com foco em processamento distribuído, consultas SQL e manipulação de dados com Python.",
+      link: "https://www.udemy.com/certificate/UC-567ff171-452c-4366-a42b-9cc756e04e62/"
     }
   ]
 }

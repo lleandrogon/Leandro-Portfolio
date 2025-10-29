@@ -10,7 +10,7 @@ export class SocialService {
       id: 1,
       name: "LinkedIn",
       icon: "fa-brands fa-linkedin",
-      link: "https://www.linkedin.com/in/leandro-gon%C3%A7alves-cris%C3%B3stomo-9936422b0/"
+      link: "https://www.linkedin.com/in/lleandrogon/"
     },
     {
       id: 2,
