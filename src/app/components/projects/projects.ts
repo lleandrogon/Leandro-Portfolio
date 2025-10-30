@@ -16,7 +16,7 @@ export class Projects {
       mainTechnology: "devicon-apacheairflow-plain",
       title: "Conversão Moedas",
       description: "Conversões de moedas orquestrado com Airflow",
-      repositorie: "*"
+      repositorie: "https://github.com/lleandrogon/Conversao-Moedas"
     },
     {
       id: 12,
