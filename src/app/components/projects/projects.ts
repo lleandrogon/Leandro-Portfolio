@@ -12,11 +12,39 @@ import { CommonModule } from '@angular/common';
 export class Projects {
   public projects:ProjectInterface[] = [
     {
-      id: 12,
+      id: 16,
+      mainTechnology: "devicon-apacheairflow-plain",
+      title: "Out School",
+      description: "ETL de porcentagem de pessoas fora da escola pelo mundo",
+      repositorie: "https://github.com/lleandrogon/Out-School"
+    },
+    {
+      id: 15,
+      mainTechnology: "devicon-apacheairflow-plain",
+      title: "Homicídios Alagoas",
+      description: "ETL com Pandas + Airflow de homicídios em Alagoas",
+      repositorie: "https://github.com/lleandrogon/Homicidios-Alagoas"
+    },
+    {
+      id: 14,
+      mainTechnology: "devicon-apacheairflow-plain",
+      title: "Migração RH",
+      description: "Migração de dados do RH do PostgreSQL para MySQL",
+      repositorie: "https://github.com/lleandrogon/Migracao-RH"
+    },
+    {
+      id: 13,
       mainTechnology: "devicon-apacheairflow-plain",
       title: "Conversão Moedas",
       description: "Conversões de moedas orquestrado com Airflow",
       repositorie: "https://github.com/lleandrogon/Conversao-Moedas"
+    },
+    {
+      id: 17,
+      mainTechnology: "devicon-apachespark-original",
+      title: "Google Play Store",
+      description: "Arquitetura medalhão com ETL de apps da Play Store",
+      repositorie: "https://github.com/lleandrogon/Google-Play-Store"
     },
     {
       id: 12,

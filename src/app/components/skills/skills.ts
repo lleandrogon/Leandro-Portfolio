@@ -37,6 +37,11 @@ export class Skills {
       icon: "devicon-apacheairflow-plain fs-3"
     },
     {
+      id: 14,
+      name: "dbt",
+      icon: ""
+    },
+    {
       id: 6,
       name: "Docker",
       icon: "fa-brands fa-docker fs-4"
