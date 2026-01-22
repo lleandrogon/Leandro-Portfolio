@@ -74,6 +74,14 @@ export class Certifications {
       company: "Udemy",
       description: "Pipelines de dados utilizando Apache Spark, com foco em processamento distribuído, consultas SQL e manipulação de dados com Python.",
       link: "https://www.udemy.com/certificate/UC-567ff171-452c-4366-a42b-9cc756e04e62/"
+    },
+    {
+      id: 9,
+      icon: "devicon-azuresqldatabase-plain fs-1",
+      title: "DBT Core Completo - Modelagem e automação de dados",
+      company: "Udemy",
+      description: "Precessos de ELT utilizando DBT para a transformação dos dados dentro do data warehouse.",
+      link: "https://www.udemy.com/certificate/UC-a7d03219-b05a-4662-8d55-6cdf1c1b831e/"
     }
   ]
 }

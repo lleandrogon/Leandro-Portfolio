@@ -12,6 +12,20 @@ import { CommonModule } from '@angular/common';
 export class Projects {
   public projects:ProjectInterface[] = [
     {
+      id: 18,
+      mainTechnology: "devicon-azuresqldatabase-plain",
+      title: "Combustível Brasil",
+      description: "ELT com DBT do preço dos combustíveis no Brasil",
+      repositorie: "https://github.com/lleandrogon/Combustivel-Brasil"
+    },
+    {
+      id: 17,
+      mainTechnology: "devicon-azuresqldatabase-plain",
+      title: "Carros na Noruega",
+      description: "ELT com DBT de vendas de carros na Noruega",
+      repositorie: "https://github.com/lleandrogon/Vendas-Carros-Noruega"
+    },
+    {
       id: 16,
       mainTechnology: "devicon-apacheairflow-plain",
       title: "Out School",
