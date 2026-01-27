@@ -17,7 +17,7 @@ export class Experience {
       title: "Analista de Infra de TI",
       company: "Prefeitura de Maceió",
       time: "Agosto 2024 - Atual",
-      description: "Implementei melhorias em servidores, o que resultou em um aumento de 50% na eficiência. Fui responsável pela gestão da infraestrutura de TI, garantindo suporte para os usuários. Também atuei no monitoramento dos dados dos funcionários da ALICC por meio dos sistemas da prefeitura.",
+      description: "Configurei pastas compartilhadas na Azure (Azure Files) integradas ao ambiente corporativo. Implantei containers Docker em aplicações PHP e MySQL. Atuei na integração de dados em sistemas institucionais. Otimizei o suporte de TI, garantindo aumento de 65% para 95% na satisfação dos usuários.",
       technologies: [
         {
           id: 1,
@@ -46,7 +46,7 @@ export class Experience {
       title: "Engenheiro de Software",
       company: "Next Opinion",
       time: "Maio 2025 - Atual",
-      description: "Implementei funções de importação de pacotes Scorm na plataforma LMS da empresa utilizando PHP com SQL, melhorando em 100% a extração de arquivos ZIPs de cursos. Corrigi bugs em dependências de sistemas, configurei storages MinIO, garantindo comunicação externa e evitando erros de cross-origin. Desenvolvi uma API Python que centraliza dados de faturamento de 100% da base de clientes.",
+      description: "Migrei dados educacionais de um arquivo Excel para uma base PostgreSQL utilizando Python (Pandas), com orquestração via Apache Airflow. Implementei funções de importação de pacotes SCORM em plataformas LMS utilizando PHP com SQL, elevando de 0% para 100% a taxa de extração de arquivos ZIP de cursos. Configurei storages MinIO, garantindo comunicação externa e eliminando erros de cross-origin.",
       technologies: [
         {
           id: 1,
@@ -65,8 +65,8 @@ export class Experience {
         },
         {
           id: 4,
-          name: "MySQL",
-          icon: "devicon-mysql-plain fs-3"
+          name: "SQL",
+          icon: "devicon-azuresqldatabase-plain fs-2"
         },
         {
           id: 6,
