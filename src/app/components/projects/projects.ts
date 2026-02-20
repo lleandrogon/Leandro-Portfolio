@@ -26,6 +26,13 @@ export class Projects {
       repositorie: "https://github.com/lleandrogon/Vendas-Carros-Noruega"
     },
     {
+      id: 19,
+      mainTechnology: "devicon-apacheairflow-plain",
+      title: "População Mundial",
+      description: "Orquestração de ETL da população por continentes",
+      repositorie: "https://github.com/lleandrogon/Populacao-Continente"
+    },
+    {
       id: 16,
       mainTechnology: "devicon-apacheairflow-plain",
       title: "Out School",
