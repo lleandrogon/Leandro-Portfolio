@@ -82,6 +82,14 @@ export class Certifications {
       company: "Udemy",
       description: "Precessos de ELT utilizando DBT para a transformação dos dados dentro do data warehouse.",
       link: "https://www.udemy.com/certificate/UC-a7d03219-b05a-4662-8d55-6cdf1c1b831e/"
+    },
+    {
+      id: 10,
+      icon: "devicon-azure-plain fs-1",
+      title: "Azure Fundamentals (AZ-900)",
+      company: "Microsoft",
+      description: "Certificação oficial da Microsoft de fundamentos de computação em nuvem no ambiente da Azure.",
+      link: "https://learn.microsoft.com/en-us/users/leandrogonalves-3361/credentials/abb56a4ce9381d14?ref=https%3A%2F%2Fwww.linkedin.com%2F"
     }
   ]
 }
