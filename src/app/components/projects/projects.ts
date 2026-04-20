@@ -124,13 +124,6 @@ export class Projects {
       repositorie: "https://github.com/lleandrogon/YO-Respostas",
     },
     {
-      id: 4,
-      mainTechnology: "fa-brands fa-laravel",
-      title: "Super Receitas",
-      description: "Projeto multiusuário para o compartilhamento de culinárias.",
-      repositorie: "https://github.com/lleandrogon/Super-Receitas",
-    },
-    {
       id: 5,
       mainTechnology: "devicon-vuejs-plain",
       title: "Colégio Modelo",
