@@ -85,6 +85,14 @@ export class Certifications {
     },
     {
       id: 10,
+      icon: "devicon-apachekafka-original fs-1",
+      title: "Domine Apache Kafka, Fundamentos e Aplicações Reais",
+      company: "Udemy",
+      description: "Fundamentos do Apache Kafka para processamento de dados em tempo real, incluindo producers, consumers e streaming de eventos.",
+      link: "https://www.udemy.com/certificate/UC-5bc4c02f-0430-4553-8d10-2923bb49f801/"
+    },
+    {
+      id: 11,
       icon: "devicon-azure-plain fs-1",
       title: "Azure Fundamentals (AZ-900)",
       company: "Microsoft",

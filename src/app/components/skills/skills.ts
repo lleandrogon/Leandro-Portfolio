@@ -38,38 +38,38 @@ export class Skills {
     },
     {
       id: 6,
+      name: "Kafka",
+      icon: "devicon-apachekafka-original fs-3"
+    },
+    {
+      id: 7,
       name: "Docker",
       icon: "fa-brands fa-docker fs-4"
     },
     {
-      id: 7,
+      id: 8,
       name: "Laravel",
       icon: "fa-brands fa-laravel fs-2"
     },
     {
-      id: 8,
+      id: 9,
       name: "PHP",
       icon: "devicon-php-plain fs-2"
     },
     {
-      id: 9,
+      id: 10,
       name: "Angular",
       icon: "devicon-angularjs-plain fs-4"
     },
     {
-      id: 10,
+      id: 11,
       name: "TypeScript",
       icon: "devicon-typescript-plain fs-4"
     },
     {
-      id: 11,
+      id: 12,
       name: "Vue",
       icon: "devicon-vuejs-plain fs-3"
-    },
-    {
-      id: 12,
-      name: "JQuery",
-      icon: "devicon-jquery-plain fs-4"
     },
     {
       id: 13,
@@ -77,7 +77,7 @@ export class Skills {
       icon: "devicon-javascript-plain fs-4"
     },
     {
-      id: 15,
+      id: 14,
       name: "Git",
       icon: "devicon-git-plain fs-4"
     }
