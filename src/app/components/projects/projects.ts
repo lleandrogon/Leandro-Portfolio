@@ -12,17 +12,31 @@ import { CommonModule } from '@angular/common';
 export class Projects {
   public projects:ProjectInterface[] = [
     {
+      id: 6,
+      mainTechnology: "devicon-python-plain",
+      title: "Marketing LLM",
+      description: "LLM especialista na área de marketing",
+      repositorie: "https://github.com/lleandrogon/Marketing-LLM"
+    },
+    {
+      id: 8,
+      mainTechnology: "devicon-azuresqldatabase-plain",
+      title: "Cyber Attacks",
+      description: "ELT com dbt de ataques cibernéticos em empresas",
+      repositorie: "https://github.com/lleandrogon/Cyber-Attacks"
+    },
+    {
       id: 18,
       mainTechnology: "devicon-azuresqldatabase-plain",
       title: "Combustível Brasil",
-      description: "ELT com DBT do preço dos combustíveis no Brasil",
+      description: "ELT com dbt do preço dos combustíveis no Brasil",
       repositorie: "https://github.com/lleandrogon/Combustivel-Brasil"
     },
     {
       id: 17,
       mainTechnology: "devicon-azuresqldatabase-plain",
       title: "Carros na Noruega",
-      description: "ELT com DBT de vendas de carros na Noruega",
+      description: "ELT com dbt de vendas de carros na Noruega",
       repositorie: "https://github.com/lleandrogon/Vendas-Carros-Noruega"
     },
     {
@@ -59,6 +73,13 @@ export class Projects {
       title: "Conversão Moedas",
       description: "Conversões de moedas orquestrado com Airflow",
       repositorie: "https://github.com/lleandrogon/Conversao-Moedas"
+    },
+    {
+      id: 18,
+      mainTechnology: "devicon-apachespark-original",
+      title: "Databricks E-C",
+      description: "ETL de E-Commerce no Databricks",
+      repositorie: "https://github.com/lleandrogon/E-Commerce-Databricks"
     },
     {
       id: 17,
@@ -117,25 +138,11 @@ export class Projects {
       repositorie: "https://github.com/lleandrogon/Colegio-Modelo"
     },
     {
-      id: 6,
-      mainTechnology: "devicon-vuejs-plain",
-      title: "Fala Fácil",
-      description: "Sistema para uma escola de idiomas para fins de matrícula.",
-      repositorie: "https://github.com/lleandrogon/Colegio-Modelo"
-    },
-    {
       id: 7,
       mainTechnology: "devicon-angularjs-plain",
       title: "Altitude Gráfica",
       description: "Projeto freelancer de landing page para uma gráfica.",
       repositorie: "https://github.com/lleandrogon/Altitude-Grafica"
-    },
-    {
-      id: 8,
-      mainTechnology: "devicon-angularjs-plain",
-      title: "Portfólio Leandro",
-      description: "Meu antigo portfólio que demonstra como eu evolui.",
-      repositorie: "https://github.com/lleandrogon/FlowMusic"
     },
     {
       id: 9,
