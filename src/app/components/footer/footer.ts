@@ -14,7 +14,7 @@ export class Footer {
   constructor(public socialService: SocialService) {}
 
   public currentYear: number = new Date().getFullYear();
-  public linkedin: string = "https://br.linkedin.com/in/leandro-gon%C3%A7alves-cris%C3%B3stomo-9936422b0?original_referer=https%3A%2F%2Fwww.linkedin.com%2F";
+  public linkedin: string = "https://www.linkedin.com/in/lleandrogon/";
 
   contacts: ContactInterface[] = [
     {
