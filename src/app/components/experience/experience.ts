@@ -31,13 +31,13 @@ export class Experience {
         },
         {
           id: 3,
-          name: "MySQL",
-          icon: "devicon-mysql-plain fs-3"
+          name: "SQL",
+          icon: "devicon-azuresqldatabase-plain fs-1"
         },
         {
           id: 4,
           name: "Docker",
-          icon: "fa-brands fa-docker fs-3"
+          icon: "fa-brands fa-docker fs-2"
         },
       ]
     },
@@ -66,17 +66,17 @@ export class Experience {
         {
           id: 4,
           name: "SQL",
-          icon: "devicon-azuresqldatabase-plain fs-2"
+          icon: "devicon-azuresqldatabase-plain fs-1"
+        },
+        {
+          id: 5,
+          name: "Docker",
+          icon: "fa-brands fa-docker fs-2"
         },
         {
           id: 6,
-          name: "Docker",
-          icon: "fa-brands fa-docker fs-3"
-        },
-        {
-          id: 7,
           name: "Git",
-          icon: "devicon-git-plain fs-3"
+          icon: "devicon-git-plain fs-2"
         }
       ]
     },
@@ -85,7 +85,7 @@ export class Experience {
       title: "Engenheiro de Dados",
       company: "Prefeitura de Maceió",
       time: "Maio 2026 - Atual",
-      description: "Desenvolvi e automatizei pipelines ETL utilizando Apache Airflow para processamento de dados do Banco de Talentos do evento Negócio da Grota. Implementei pipelines de transformação de dados com PySpark e SQL para análise de vendas em eventos de empreendedorismo promovidos pela Prefeitura de Maceió. Modelei bancos de dados relacionais para centralização de informações que eram gerenciadas em planilhas, estruturei ambientes de Data Lake na Azure seguindo a arquitetura Medalhão (Bronze, Silver e Gold). Desenvolvi dashboards e indicadores no Power BI e gerenciei sua publicação utilizando Microsoft Fabric.",
+      description: "Orquestrei um pipeline ETL com Apache Airflow para automação de dados do Banco de Talentos do evento Negócio da Grota, reduzindo a execução manual de scripts de 7 minutos para menos de 1 minuto. Implementei um pipeline de transformação com PySpark e SQL para análise de vendas em eventos de empreendedorismo da Prefeitura. Modelei bancos de dados relacionais para centralização de dados antes gerenciados em planilhas. Estruturei ambientes de Data Lake na Azure seguindo a arquitetura Medalhão (Bronze, Silver e Gold). Implementei boas práticas de segurança e gerenciamento de credenciais utilizando Azure Key Vault, evitando o armazenamento direto de segredos e credenciais no código das aplicações. Desenvolvi dashboards e indicadores no Power BI e publiquei relatórios utilizando Microsoft Fabric.",
       technologies: [
         {
           id: 1,
