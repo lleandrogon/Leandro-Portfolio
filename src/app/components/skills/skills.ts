@@ -43,41 +43,26 @@ export class Skills {
     },
     {
       id: 7,
+      name: "Pandas",
+      icon: "devicon-pandas-plain fs-3"
+    },
+    {
+      id: 8,
       name: "Docker",
       icon: "fa-brands fa-docker fs-4"
     },
     {
-      id: 8,
+      id: 9,
       name: "Laravel",
       icon: "fa-brands fa-laravel fs-2"
     },
     {
-      id: 9,
+      id: 10,
       name: "PHP",
       icon: "devicon-php-plain fs-2"
     },
     {
-      id: 10,
-      name: "Angular",
-      icon: "devicon-angularjs-plain fs-4"
-    },
-    {
       id: 11,
-      name: "TypeScript",
-      icon: "devicon-typescript-plain fs-4"
-    },
-    {
-      id: 12,
-      name: "Vue",
-      icon: "devicon-vuejs-plain fs-3"
-    },
-    {
-      id: 13,
-      name: "JavaScript",
-      icon: "devicon-javascript-plain fs-4"
-    },
-    {
-      id: 14,
       name: "Git",
       icon: "devicon-git-plain fs-4"
     }
