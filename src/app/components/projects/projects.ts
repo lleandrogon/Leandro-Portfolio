@@ -12,11 +12,11 @@ import { CommonModule } from '@angular/common';
 export class Projects {
   public projects:ProjectInterface[] = [
     {
-      id: 6,
-      mainTechnology: "devicon-python-plain",
-      title: "Marketing LLM",
-      description: "LLM especialista na área de marketing",
-      repositorie: "https://github.com/lleandrogon/Marketing-LLM"
+      id: 20,
+      mainTechnology: "devicon-azure-plain",
+      title: "População da Europa",
+      description: "ETL com Azure Functions e ADF da população europeira",
+      repositorie: "https://github.com/lleandrogon/europe-population"
     },
     {
       id: 8,
@@ -75,6 +75,13 @@ export class Projects {
       repositorie: "https://github.com/lleandrogon/Conversao-Moedas"
     },
     {
+      id: 6,
+      mainTechnology: "devicon-apachespark-original",
+      title: "Global Energy",
+      description: "ETL com Star Schema de transição de energia global",
+      repositorie: "https://github.com/lleandrogon/Global-Energy"
+    },
+    {
       id: 18,
       mainTechnology: "devicon-apachespark-original",
       title: "Databricks E-C",
@@ -115,41 +122,6 @@ export class Projects {
       title: "Notas",
       description: "API para filtros de pesquisa de notas acadêmicas escolares.",
       repositorie: "https://github.com/lleandrogon/Notas",
-    },
-    {
-      id: 3,
-      mainTechnology: "fa-brands fa-laravel",
-      title: "YO Respostas",
-      description: "Sistema multiusuário para perguntas e respostas gerais.",
-      repositorie: "https://github.com/lleandrogon/YO-Respostas",
-    },
-    {
-      id: 5,
-      mainTechnology: "devicon-vuejs-plain",
-      title: "Colégio Modelo",
-      description: "Sistema para um colégio para convencer matrículas.",
-      repositorie: "https://github.com/lleandrogon/Colegio-Modelo"
-    },
-    {
-      id: 7,
-      mainTechnology: "devicon-angularjs-plain",
-      title: "Altitude Gráfica",
-      description: "Projeto freelancer de landing page para uma gráfica.",
-      repositorie: "https://github.com/lleandrogon/Altitude-Grafica"
-    },
-    {
-      id: 9,
-      mainTechnology: "devicon-angularjs-plain",
-      title: "Flow Music",
-      description: "Ecommerce de uma loja de instrumentos musicais.",
-      repositorie: "https://github.com/lleandrogon/FlowMusic"
-    },
-    {
-      id: 10,
-      mainTechnology: "devicon-angularjs-plain",
-      title: "PowerFit",
-      description: "Sistema convicente a matrículas de uma academia.",
-      repositorie: "https://github.com/lleandrogon/FlowMusic"
     }
   ];
 }
