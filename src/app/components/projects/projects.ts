@@ -15,7 +15,7 @@ export class Projects {
       id: 20,
       mainTechnology: "devicon-azure-plain",
       title: "População da Europa",
-      description: "ETL com Azure Functions e ADF da população europeira",
+      description: "ETL com Azure Functions e ADF da população europeia",
       repositorie: "https://github.com/lleandrogon/europe-population"
     },
     {
