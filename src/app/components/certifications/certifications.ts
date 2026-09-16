@@ -12,36 +12,12 @@ import { CommonModule } from '@angular/common';
 export class Certifications {
   public certificates: CertificateInterface[] = [
     {
-      id: 1,
-      icon: "fa-solid fa-server fs-2",
-      title: "Assistente de Operação de Redes de Computadores",
-      company: "Senai",
-      description: "Formação voltada à operação e manutenção de redes de computadores, com ênfase em infraestrutura de rede, cabeamento, protocolos e suporte técnico.",
-      link: "https://drive.google.com/file/d/18fFPlop6t8nzLnRom0e9uPpvOCVM19Mo/view"
-    },
-    {
-      id: 2,
-      icon: "fa-solid fa-computer fs-2",
-      title: "Operador de Computador",
-      company: "Senai",
-      description: "Uso de sistemas operacionais Linux, editores de texto, planilhas eletrônicas e navegação na internet para rotinas administrativas.",
-      link: "https://drive.google.com/file/d/18bomU7EubYd37d_kM5D6w6nwke6mkvST/view"
-    },
-    {
       id: 3,
       icon: "fa-solid fa-language fs-2",
       title: "Inglês Avançado",
       company: "Instituto Brasileiro de Línguas",
       description: "Curso de inglês com foco em conversação, escrita, leitura e compreensão oral, preparando para situações acadêmicas e profissionais de alta complexidade.",
       link: "https://drive.google.com/file/d/18gbk6Gm-XfELRbdtY23jfw8xfMA04lJH/view"
-    },
-    {
-      id: 4,
-      icon: "devicon-javascript-plain fs-2",
-      title: "Curso Web Moderno Completo com JavaScript + Projetos",
-      company: "Udemy",
-      description: "Formação completa em desenvolvimento web moderno utilizando HTML, CSS, JavaScript, TypeScript e Frameworks, com foco em projetos práticos.",
-      link: "https://www.udemy.com/certificate/UC-fb762282-187c-4e81-8c66-1c58262cc708/"
     },
     {
       id: 5,
@@ -98,6 +74,14 @@ export class Certifications {
       company: "Microsoft",
       description: "Certificação oficial da Microsoft de fundamentos de computação em nuvem no ambiente da Azure.",
       link: "https://learn.microsoft.com/en-us/users/leandrogonalves-3361/credentials/abb56a4ce9381d14?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+    },
+    {
+      id: 12,
+      icon: "devicon-azure-plain fs-1",
+      title: "Azure Data Fundamentals (DP-900)",
+      company: "Microsoft",
+      description: "Certificação oficial da Microsoft sobre conceitos de dados, bancos de dados relacionais e não relacionais e serviços de dados da Azure.",
+      link: "https://learn.microsoft.com/pt-br/users/leandrogonalves-3361/credentials/ee2c59805cf0c4a8?ref=https%3A%2F%2Fwww.linkedin.com%2F"
     }
   ]
 }
