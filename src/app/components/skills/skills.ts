@@ -13,13 +13,13 @@ export class Skills {
   public technologies:TechnologyInterface[] = [
     {
       id: 1,
-      name: "Python",
-      icon: "devicon-python-plain fs-3"
+      name: "SQL",
+      icon: "devicon-azuresqldatabase-plain fs-2"
     },
     {
       id: 2,
-      name: "SQL",
-      icon: "devicon-azuresqldatabase-plain fs-2"
+      name: "Python",
+      icon: "devicon-python-plain fs-3"
     },
     {
       id: 3,
@@ -53,16 +53,21 @@ export class Skills {
     },
     {
       id: 9,
+      name: "Kubernetes",
+      icon: "devicon-kubernetes-plain fs-3"
+    },
+    {
+      id: 10,
       name: "Laravel",
       icon: "fa-brands fa-laravel fs-2"
     },
     {
-      id: 10,
+      id: 11,
       name: "PHP",
       icon: "devicon-php-plain fs-2"
     },
     {
-      id: 11,
+      id: 12,
       name: "Git",
       icon: "devicon-git-plain fs-4"
     }
