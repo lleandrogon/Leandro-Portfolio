@@ -84,7 +84,7 @@ export class Experience {
       id: 3,
       title: "Engenheiro de Dados",
       company: "Prefeitura de Maceió",
-      time: "Maio 2026 - Atual",
+      time: "Maio 2026 - Outubro 2026",
       description: "Orquestrei um pipeline ETL com Apache Airflow para automação de dados do Banco de Talentos do evento Negócio da Grota, reduzindo a execução manual de scripts de 7 minutos para menos de 1 minuto. Implementei um pipeline de transformação com PySpark e SQL para análise de vendas em eventos de empreendedorismo da Prefeitura. Modelei bancos de dados relacionais para centralização de dados antes gerenciados em planilhas. Estruturei ambientes de Data Lake na Azure seguindo a arquitetura Medalhão (Bronze, Silver e Gold). Implementei boas práticas de segurança e gerenciamento de credenciais utilizando Azure Key Vault, evitando o armazenamento direto de segredos e credenciais no código das aplicações. Desenvolvi dashboards e indicadores no Power BI e publiquei relatórios utilizando Microsoft Fabric.",
       technologies: [
         {
@@ -116,6 +116,45 @@ export class Experience {
           id: 6,
           name: "Docker",
           icon: "fa-brands fa-docker fs-2"
+        }
+      ]
+    },
+    {
+      id: 4,
+      title: "Engenheiro de Dados",
+      company: "Somativa",
+      time: "Outubro 2026 - Atual",
+      description: "Desenvolvi pipelines de ingestão de dados utilizando Microsoft Fabric Pipelines para extrair dados de ambientes SQL Server on-premises e armazená-los no Azure Data Lake Storage Gen2 (ADLS Gen2) em formato Parquet, otimizando o armazenamento e os custos de processamento. Participei do desenvolvimento de arquiteturas híbridas integrando Microsoft Fabric e Azure Databricks. Realizei a modelagem dimensional de dados na camada Gold, utilizando Star Schema e Snowflake Schema. Utilizei frameworks internos desenvolvidos pela equipe de Engenharia de Dados da Somativa para automatizar operações recorrentes em scripts PySpark, incluindo leitura, transformação e gravação de dados em Data Lakes.",
+      technologies: [
+        {
+          id: 1,
+          name: "SQL",
+          icon: "devicon-azuresqldatabase-plain fs-1"
+        },
+        {
+          id: 2,
+          name: "Python",
+          icon: "devicon-python-plain fs-1"
+        },
+        {
+          id: 3,
+          name: "Azure",
+          icon: "devicon-azure-plain fs-2"
+        },
+        {
+          id: 4,
+          name: "Spark",
+          icon: "devicon-apachespark-original fs-2"
+        },
+        {
+          id: 5,
+          name: "Docker",
+          icon: "fa-brands fa-docker fs-2"
+        },
+        {
+          id: 6,
+          name: "Kubernetes",
+          icon: "devicon-kubernetes-plain fs-1"
         }
       ]
     }
