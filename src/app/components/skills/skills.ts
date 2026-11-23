@@ -58,16 +58,21 @@ export class Skills {
     },
     {
       id: 10,
+      name: "Terraform",
+      icon: "devicon-terraform-plain fs-2"
+    },
+    {
+      id: 11,
       name: "Laravel",
       icon: "fa-brands fa-laravel fs-2"
     },
     {
-      id: 11,
+      id: 12,
       name: "PHP",
       icon: "devicon-php-plain fs-2"
     },
     {
-      id: 12,
+      id: 13,
       name: "Git",
       icon: "devicon-git-plain fs-4"
     }
